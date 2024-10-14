@@ -3,6 +3,12 @@
     font-weight: 200;
 }
 
+/* Header */
+
+header {
+    padding: 20px 0;
+    padding-top: 0;
+}
 .header-nav {
     display: flex;
     align-items: center;
@@ -42,4 +48,32 @@ section h1, div h4 {
 
 .main-section_principal-h1 {
     text-transform: capitalize;
+}
+
+/* Main */
+
+/* Principal Section */
+
+.main-section_principal {
+    display: flex;
+    flex-direction: row;
+}
+
+.main-section_principal-img {
+    width: 30vw;
+}
+
+.main-section_principal-div {
+    
+}
+
+section a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.main-section_principal-a {
+    text-align: center;
+    padding: 15px;
+    background-color: aqua;
 }
