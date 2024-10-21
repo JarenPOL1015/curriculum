@@ -118,3 +118,51 @@ a.main-section_principal-a {
     font-weight: 400;
     font-size: 120%;
 }
+
+/* Section Skills */
+
+.main-section_skills {
+    display: flex;
+    padding: 20px 0;
+    flex-direction: column;
+    gap: 15%;
+    justify-content: center;
+    align-items: center;
+    background-color: #1c2e4f;
+    flex-wrap: wrap;
+}
+
+.main-section_skills-h1 {
+    color: #FFF;
+    font-size: 3vw;
+}
+
+.main-section_skills-div_hs-h3 {
+    font-size: 2.5vw;
+    color: #FFF;
+}
+
+.main-section_skills-div_hs-div_web {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.main-section_skills-div_hs-div_web-icons {
+    display: flex; /* Esto alinea los íconos en fila */
+    flex-direction: row; /* Asegura que estén en fila horizontal */
+    justify-content: center; /* Alinea los íconos en el centro horizontalmente */
+    gap: 20px; /* Espaciado entre los íconos */
+    max-width: 100%; /* Ajusta el ancho para permitir que se muestren en fila */
+}
+
+.main-section_skills-div_hs-div_web-icons svg {
+    width: 60px;
+    height: 60px;
+    flex-shrink: 0; /* Evita que se reduzcan en tamaño en caso de espacio limitado */
+}
+
+
+
