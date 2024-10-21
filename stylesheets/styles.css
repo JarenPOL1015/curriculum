@@ -12,7 +12,7 @@ a {
 
 header {
     padding: 10px 0;
-    background-color: #1e3a76;
+    background-color: #131b3a;
 }
 .header-nav {
     display: flex;
@@ -74,11 +74,13 @@ section h1, div h4 {
     gap: 15%;
     justify-content: center;
     align-items: center;
-    background: #f4f8fb;
+    background-color: #0f162f;
 }
 
 .main-section_principal-img {
     width: 30vw;
+    border-radius: 10px;
+    margin: 20px 0;
 }
 
 div.main-section_principal-div {
@@ -90,12 +92,14 @@ div.main-section_principal-div {
 div#main-section_principal-div h1#main-section_principal-h1 {
     font-size: 40px;
     margin: 10px 0;
+    color: #FFF;
 }
 
 div#main-section_principal-div h2#main-section_principal-h2 {
     text-align: center;
     font-style: italic;
     font-size: 30px;
+    color: #FFF;
 }
 
 section a {
@@ -104,9 +108,13 @@ section a {
 }
 
 a.main-section_principal-a {
+    margin-top: 20px;
     display: inline-block;
     text-align: center;
     padding: 10px 20px;    
-    background-color: aqua;
+    background-color: #3f2bbf;
     border-radius: 10px;
+    color: #FFF;
+    font-weight: 400;
+    font-size: 120%;
 }
