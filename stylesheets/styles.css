@@ -1,13 +1,18 @@
 * {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: 200;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
 }
 
 /* Header */
 
 header {
-    padding: 20px 0;
-    padding-top: 0;
+    padding: 10px 0;
+    background-color: #1e3a76;
 }
 .header-nav {
     display: flex;
@@ -36,6 +41,13 @@ header {
     margin-right: 0;
 }
 
+.header-nav-ul-li_a {
+    color: #FFF;
+    font-weight: 500;
+    text-transform: uppercase;
+    text-align: center;
+}
+
 /* Generales */
 
 h1 {
@@ -62,7 +74,7 @@ section h1, div h4 {
     gap: 15%;
     justify-content: center;
     align-items: center;
-    background: rgb(178, 255, 159);
+    background: #f4f8fb;
 }
 
 .main-section_principal-img {
