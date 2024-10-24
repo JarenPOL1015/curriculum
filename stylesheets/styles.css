@@ -48,6 +48,11 @@ header {
     text-align: center;
 }
 
+.header-nav-ul-li:hover {
+    background-color: #000000;
+    transition: 0.2s;   
+}
+
 /* Generales */
 
 h1 {
@@ -70,6 +75,7 @@ section h1, div h4 {
 
 .main-section_principal {
     display: flex;
+    padding: 20px 0;
     flex-direction: row;
     gap: 15%;
     justify-content: center;
@@ -102,6 +108,14 @@ div#main-section_principal-div h2#main-section_principal-h2 {
     color: #FFF;
 }
 
+h2#main-section_principal-h2_1015sol {
+    margin: 20px 0 0 0;
+    text-align: center;
+    font-size: 30px;
+    color: #FFF;
+    font-weight: 500;
+}
+
 section a {
     text-decoration: none;
     color: #000000;    
@@ -123,7 +137,7 @@ a.main-section_principal-a {
 
 .main-section_skills {
     display: flex;
-    padding: 20px 0;
+    padding: 20px;
     flex-direction: column;
     gap: 15%;
     justify-content: center;
@@ -137,12 +151,21 @@ a.main-section_principal-a {
     font-size: 3vw;
 }
 
-.main-section_skills-div_hs-h3 {
-    font-size: 2.5vw;
-    color: #FFF;
+.main-section_skills-div_hs {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 25vw;
 }
 
-.main-section_skills-div_hs-div_web {
+div.main-section_skills-div_hs h4 {
+    color: #FFF;
+    margin-bottom: 20px;
+}
+
+.main-section_skills-div_hs-div_web, .main-section_skills-div_hs-div_programming {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -150,19 +173,69 @@ a.main-section_principal-a {
     flex-wrap: wrap;
 }
 
-.main-section_skills-div_hs-div_web-icons {
-    display: flex; /* Esto alinea los íconos en fila */
-    flex-direction: row; /* Asegura que estén en fila horizontal */
-    justify-content: center; /* Alinea los íconos en el centro horizontalmente */
-    gap: 20px; /* Espaciado entre los íconos */
-    max-width: 100%; /* Ajusta el ancho para permitir que se muestren en fila */
+.div_skills-icons {
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 30px;
+    max-width: 100%;
 }
 
-.main-section_skills-div_hs-div_web-icons svg {
-    width: 60px;
-    height: 60px;
-    flex-shrink: 0; /* Evita que se reduzcan en tamaño en caso de espacio limitado */
+.div_skills-icons svg {
+    width: 100px;
+    height: 100px;
+    flex-shrink: 0;
 }
 
+
+/* Section Experiencia */
+
+.main-section_experiencia {
+    background: #060913;
+    padding: 20px;
+}
+
+.main-section_experiencia-h1 {
+    font-size: 40px;
+    color: #FFF;
+}
+
+.main-section_experiencia-div_padre {
+    display: flex;
+    padding: 20px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10%;
+    
+}
+
+.main-section_experiencia-div_detalle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #FFF;
+    background-color: #1C1F26;  /* Fondo acorde al fondo principal */
+    border-radius: 15px;  /* Bordes redondeados */
+    padding: 20px;
+    width: 300px;  /* Puedes ajustar el ancho si lo deseas */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);  /* Sombra sutil */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;  /* Transiciones suaves */
+}
+
+.main-section_experiencia-div_detalle img {
+    width: 150px;
+    height: 150px; 
+    object-fit: contain;
+}
+
+.main-section_experiencia-div_detalle:hover {
+    transform: translateY(-10px);
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.5); 
+}
 
 
