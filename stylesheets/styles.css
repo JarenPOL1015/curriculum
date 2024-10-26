@@ -323,3 +323,87 @@ div.main-section_skills-div_hs h4 {
 .main-section_proyectos-div_detalle img.main-section_proyectos-div_detalle-img_logo {
     width: 50%;
 }
+
+/* Section Contacto */
+
+.main-section_contacto {
+    background-color: #181a1b;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main-section_contacto-h1 {
+    font-size: 36px; /* Tamaño de letra aumentado */
+    color: #ffffff;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* Formulario */
+.main-section_contacto-form {
+    width: 100%;
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+/* Divs de Entrada */
+.main-section_contacto-form-div {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+/* Etiquetas */
+.main-section_contacto-form-div label {
+    color: #cccccc; /* Color claro para contraste con fondo oscuro */
+    font-weight: bold;
+    font-size: 16px; /* Tamaño de letra aumentado */
+}
+
+/* Campos de Entrada */
+.main-section_contacto-form-div input,
+.main-section_contacto-form-div textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #444444; /* Borde gris oscuro */
+    border-radius: 4px;
+    background-color: #2a2c2e; /* Fondo oscuro para los campos */
+    color: #ffffff; /* Texto claro */
+    font-size: 18px; /* Tamaño de letra aumentado */
+}
+
+/* Placeholder */
+.main-section_contacto-form-div input::placeholder,
+.main-section_contacto-form-div textarea::placeholder {
+    color: #aaaaaa; /* Color más claro para el placeholder */
+}
+
+/* Botón de Enviar */
+.main-section_contacto-form button {
+    width: 100%;
+    padding: 14px;
+    background-color: #550a7d; /* Color morado para el botón */
+    color: #ffffff;
+    font-size: 18px; /* Tamaño de letra aumentado */
+    font-weight: bold;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.main-section_contacto-form button:hover {
+    background-color: #3e085b; /* Color de hover para el botón */
+}
+
+/* Ajuste de Enfoque */
+.main-section_contacto-form-div input:focus,
+.main-section_contacto-form-div textarea:focus {
+    outline: none;
+    border-color: #550a7d; /* Color morado en el borde al enfocarse */
+    box-shadow: 0 0 5px rgba(85, 10, 125, 0.5);
+}
