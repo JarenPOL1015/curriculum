@@ -467,3 +467,127 @@ div.main-section_skills-div_hs h4 {
     text-decoration:underline;
     color: #7d0a0a; /* Color de hover para los enlaces de redes sociales */
 }
+
+/* Dispositivos Mobiles */
+
+/* Ajuste para pantallas de hasta 768px (tablets y móviles) */
+@media (max-width: 768px) {
+    /* Ajustar el header */
+    .header-nav {
+        flex-direction: column;
+    }
+
+    .header-nav-ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .header-nav-ul-li {
+        padding: 10px;
+    }
+
+    /* Sección principal */
+    .main-section_principal {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .main-section_principal-img {
+        width: 80vw;
+    }
+
+    div#main-section_principal-div h1#main-section_principal-h1 {
+        font-size: 28px;
+    }
+
+    div#main-section_principal-div h2#main-section_principal-h2 {
+        font-size: 22px;
+    }
+
+    /* Sección de Skills */
+    .main-section_skills {
+        padding: 10px;
+    }
+
+    .main-section_skills-div_hs {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .div_skills-icons svg {
+        width: 70px;
+        height: 70px;
+    }
+
+    /* Sección de Experiencia */
+    .main-section_experiencia-div_padre {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .main-section_experiencia-div_detalle {
+        width: 90%;
+    }
+
+    /* Sección de Proyectos */
+    .main-section_proyectos-div_padre {
+        grid-template-columns: 1fr;
+        gap: 10px;
+    }
+
+    /* Sección de Contacto */
+    .main-section_contacto-form {
+        max-width: 90%;
+    }
+
+    .main-section_contacto-h1 {
+        font-size: 24px;
+    }
+
+    /* Footer */
+    .footer {
+        flex-direction: column;
+    }
+
+    .footer-div {
+        width: 100%;
+        text-align: center;
+    }
+}
+
+/* Ajuste para pantallas de hasta 480px (móviles pequeños) */
+@media (max-width: 480px) {
+    /* Ajuste en fuentes y tamaños */
+    section h1 {
+        font-size: 28px;
+    }
+
+    .header-nav-ul-li {
+        padding: 8px;
+    }
+
+    div#main-section_principal-div h1#main-section_principal-h1 {
+        font-size: 24px;
+    }
+
+    div#main-section_principal-div h2#main-section_principal-h2 {
+        font-size: 18px;
+    }
+
+    /* Iconos de Skills */
+    .div_skills-icons svg {
+        width: 50px;
+        height: 50px;
+    }
+
+    /* Formularios */
+    .main-section_contacto-form-div input,
+    .main-section_contacto-form-div textarea {
+        font-size: 14px;
+    }
+
+    .main-section_contacto-form button {
+        font-size: 16px;
+        padding: 12px;
+    }
+}
