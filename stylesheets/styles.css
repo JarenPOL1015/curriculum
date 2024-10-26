@@ -296,8 +296,11 @@ div.main-section_skills-div_hs h4 {
 }
 
 .main-section_proyectos-div_detalle:hover {
-    height: auto;
-    
+    height: auto;    
+}
+
+.main-section_proyectos-div_detalle:hover .main-section_proyectos-div_detalle-img_proyecto {
+    margin-bottom: 7%;
 }
 
 .main-section_proyectos-div_detalle:hover h2, 
@@ -318,7 +321,5 @@ div.main-section_skills-div_hs h4 {
 }
 
 .main-section_proyectos-div_detalle img.main-section_proyectos-div_detalle-img_logo {
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
+    width: 50%;
 }
