@@ -407,3 +407,61 @@ div.main-section_skills-div_hs h4 {
     border-color: #550a7d; /* Color morado en el borde al enfocarse */
     box-shadow: 0 0 5px rgba(85, 10, 125, 0.5);
 }
+
+
+/* FOOTER */
+
+.footer {
+    background-color: #181a1b;
+    color: #cccccc;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+/* Estilos de columnas */
+
+.footer {
+    background-color: #0f162f;
+}
+
+.footer-div {
+    flex: 1;
+    padding: 10px;
+}
+
+/* Derechos reservados */
+#footer-div_derechos p {
+    margin: 0;
+    font-size: 20px;
+}
+
+/* Web Developer y logo */
+#footer-div_webdev p {
+    margin: 0;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.main-footer__logo {
+    display: block;
+    margin: 10px auto;
+    width: 50%;
+    height: auto;
+}
+
+/* Redes sociales */
+.footer-div_redes-a {
+    color: #cccccc;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 18px;
+}
+
+.footer-div_redes-a:hover {
+    text-decoration:underline;
+    color: #7d0a0a; /* Color de hover para los enlaces de redes sociales */
+}
