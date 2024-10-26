@@ -163,10 +163,10 @@ a.main-section_principal-a {
 .main-section_skills-div_hs {
     display: flex;
     flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
     gap: 25vw;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;    
 }
 
 div.main-section_skills-div_hs h4 {
@@ -263,7 +263,7 @@ div.main-section_skills-div_hs h4 {
     border-radius: 15px;
     overflow: hidden;
     background-color: #2a3f5b;
-    transition: all 0.3s ease;
+    transition: all 0.7s ease;
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -276,7 +276,7 @@ div.main-section_skills-div_hs h4 {
     width: 100%;
     height: 100%;
     object-fit: cover;
-    transition: height 0.3s, transform 0.3s;
+    transition: height 0.5s, transform 0.5s;
 }
 
 /* Información del proyecto (inicialmente oculta) */
@@ -293,7 +293,7 @@ div.main-section_skills-div_hs h4 {
 /* Al hacer hover en el contenedor */
 .main-section_proyectos-div_detalle:hover img.main-section_proyectos-div_detalle-img_proyecto {
     /* height: 60%;  Reduce la altura de la imagen para mostrar el contenido */
-    transform: scale(1.2); /* Agranda la imagen ligeramente */
+    transform: scale(1.1); /* Agranda la imagen ligeramente */
 }
 
 .main-section_proyectos-div_detalle:hover {
@@ -309,16 +309,17 @@ div.main-section_skills-div_hs h4 {
 .main-section_proyectos-div_detalle:hover img.main-section_proyectos-div_detalle-img_logo {
     display: block;
     opacity: 1;
+    padding: 10px;
 }
 
 /* Estilo de la información adicional */
 .main-section_proyectos-div_detalle h2 {
-    font-size: 18px;
+    font-size: 25px;
     font-weight: bold;
 }
 
 .main-section_proyectos-div_detalle h3 {
-    font-size: 14px;
+    font-size: 18px;
 }
 
 .main-section_proyectos-div_detalle img.main-section_proyectos-div_detalle-img_logo {
