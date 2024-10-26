@@ -8,6 +8,19 @@ a {
     text-decoration: none;
 }
 
+/* Ocultar checkbox */
+.menu-toggle {
+    display: none;
+}
+
+/* Icono de menú hamburguesa */
+.menu-icon {
+    display: none;
+    font-size: 28px;
+    color: #FFF;
+    cursor: pointer;
+}
+
 section {
     padding: 20px;
 }
@@ -553,6 +566,19 @@ div.main-section_skills-div_hs h4 {
         width: 100%;
         text-align: center;
     }
+}
+
+/* Ocultar checkbox */
+.menu-toggle {
+    display: none;
+}
+
+/* Icono de menú hamburguesa */
+.menu-icon {
+    display: none;
+    font-size: 28px;
+    color: #FFF;
+    cursor: pointer;
 }
 
 /* Ajuste para pantallas de hasta 480px (móviles pequeños) */
