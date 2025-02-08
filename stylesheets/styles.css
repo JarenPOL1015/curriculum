@@ -176,10 +176,10 @@ a.main-section_principal-a {
 .main-section_skills-div_hs {
     display: flex;
     flex-direction: row;
-    gap: 25vw;
-    justify-content: space-between;
+    gap: 10vw; /* Reducir el gap */
+    justify-content: center; /* Centrar los elementos */
     align-items: center;
-    flex-wrap: wrap;    
+    flex-wrap: wrap; /* Asegurar que los elementos se ajusten */
 }
 
 div.main-section_skills-div_hs h4 {
@@ -253,6 +253,11 @@ div.main-section_skills-div_hs h4 {
 .main-section_experiencia-div_detalle:hover {
     transform: translateY(-10px);
     box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.5); 
+}
+
+.main-section_proyectos-div_detalle a {
+    color: #ffffff;
+    font-weight: bold;
 }
 
 /* Section Proyectos */
@@ -340,6 +345,11 @@ div.main-section_skills-div_hs h4 {
 }
 
 /* Section Contacto */
+
+/* Asegúrate de que todos los elementos usen border-box para el box-sizing */
+.main-section_contacto-form * {
+    box-sizing: border-box;
+}
 
 .main-section_contacto {
     background-color: #181a1b;
