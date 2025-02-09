@@ -537,6 +537,13 @@ div.main-section_skills-div_hs h4 {
         gap: 20px;
     }
 
+    .div_skills-icons {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr); /* 3 íconos por fila */
+        gap: 10px; /* Reducir el espacio entre íconos */
+        padding: 10px; /* Reducir el padding */
+    }
+
     .div_skills-icons svg {
         width: 70px;
         height: 70px;
@@ -611,6 +618,12 @@ div.main-section_skills-div_hs h4 {
     }
 
     /* Iconos de Skills */
+
+    .div_skills-icons {
+        grid-template-columns: repeat(3, 1fr); /* 2 íconos por fila */
+        gap: 5px; /* Reducir aún más el espacio entre íconos */
+    }
+
     .div_skills-icons svg {
         width: 50px;
         height: 50px;
